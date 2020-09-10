@@ -30,8 +30,8 @@ def sorted_matrix
   
     sorted_array = [
       [assembled_matrix[0][4],CONVENTIONAL_PRODUCE[0],CONVENTIONAL_PRODUCE[2],CONVENTIONAL_PRODUCE[1],CONVENTIONAL_PRODUCE[3]],
-    ["Asparagus", "Avocadoes", "Grapes", "Potatoes", "Strawberries"]
-    ]
+    [ORGANIC_PRODUCE[0],ORGANIC_PRODUCE[1],ORGANIC_PRODUCE[2],ORGANIC_PRODUCE[3], ORGANIC_PRODUCE[4]
+    ]]
 end
 
 def matrix_lookup(matrix, row, column)
